@@ -7,8 +7,10 @@ Trabalho desenvolvido durante a disciplina de BD1
 ### 1. COMPONENTES<br>
 
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
+Kailany Faustino: email_primeiro_componente@dominio.com<br>
+Micaely Gusmão: email_segundo_componente@dominio.com<br>
+Richard Lucas: richardl1010@outlook.com<br>
+Lucas Codeco: email_terceiro_componente@dominio.com<br>
 ...<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
@@ -71,7 +73,6 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null,
         e tuplas falsas (Aplicar os conceitos de normalização abordados).
 
-
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/images/concept_sample.png?raw=true "Modelo Conceitual")
 
 #### 5.1 Validação do Modelo Conceitual
@@ -97,8 +98,6 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
         a) inclusão das instruções de criacão das estruturas em SQL/DDL
         (criação de tabelas, alterações, etc..)
-
-
 
 ### 8 INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
