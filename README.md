@@ -7,9 +7,9 @@ Trabalho desenvolvido durante a disciplina de BD1
 ### 1. COMPONENTES<br>
 
 Integrantes do grupo<br>
-Kailany Faustino: kailanyfaustino@gmail.com
-Lucas Codeco: lucas.codeco2@gmail.com
-Micaely Gusmão: gusmaomicaely@gmail.com
+Kailany Faustino: kailanyfaustino@gmail.com<br>
+Lucas Codeco: lucas.codeco2@gmail.com<br>
+Micaely Gusmão: gusmaomicaely@gmail.com<br>
 Richard Lucas: richardl1010@outlook.com<br>
 
 ...<br>
