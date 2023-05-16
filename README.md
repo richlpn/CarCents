@@ -39,7 +39,7 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 Sugestão: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@7YNFXnKbZA8iQdvdXYPvu<br>
 
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/telas_iniciais.png "Title")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/telas_iniciais.png "Telas Iniciais")
 ![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
 
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
@@ -74,7 +74,7 @@ Sugestão: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@7YNFXnKbZA8iQdv
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null,
         e tuplas falsas (Aplicar os conceitos de normalização abordados).
 
-![Alt text](https://github.com/discipbd1/trab01/blob/master/images/concept_sample.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/modelo_conceitual.png "Modelo Conceitual")
 
 #### 5.1 Validação do Modelo Conceitual
 
