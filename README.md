@@ -37,7 +37,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
+Sugestão: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@7YNFXnKbZA8iQdvdXYPvu<br>
 
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 ![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
