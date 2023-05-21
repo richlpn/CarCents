@@ -100,7 +100,7 @@ Link para todas as telas: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@
 
 ### 6 MODELO LÓGICO<br>
 
-    ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/modelo_logico_resumido.png "Modelo Lógico")
+   ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/modelo_logico_resumido.png "Modelo Lógico")
 
 ### 7 MODELO FÍSICO<br>
 
