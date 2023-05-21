@@ -19,23 +19,22 @@ Richard Lucas: richardl1010@outlook.com<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto>
 <br>e motivação da escolha realizada. <br>
 
-> A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
+> A empresa Abacaxi Tech sabendo da dificuldade existente entre os donos dos veículos para administrar os gastos e manutenções dos seus veículos iniciou a criação do projeto CarCents, um aplicativo para dispositivos móveis que tem como objetivo esclarecer para os usuários quanto cada veículo está gerando de despesas em um intervalo de tempo, lembretes que auxiliem em manutenções periódicas como troca de óleo e além disso existirá o controle em relação a gastos gerados para percursos como viagens. Para realizar essa ajuda na administração dos gastos é necessário armazenar dos usuários os seus veículos, gastos, manutenções, o registro de abastecimento para que possa ser possível calcular o consumo médio de cada veículo em relação ao tipo de combustível e informações sobre as viagens que serão/foram feitas. Nas telas de listagem dos gastos e manutenções deverá existir um filtro que permita o usuário colocar um intervalo de data e uma soma dos valores gastos nesse intervalo de datas possam aparecer.
 
 ### 3.MINI-MUNDO<br>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas, se necessário resumir para justar) <br>
-Entrevista com o usuário e identificação dos requisitos.(quando for o caso de sistemas com cliente real)<br>
-Descrição textual das regras de negócio definidas como um subconjunto do mundo real
-cujos elementos são propriedades que desejamos incluir, processar, armazenar,
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
-
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes.
+> O sistema do CarCents conterá as informações aqui detalhadas. Do usuário serão armazenados id, nome, senha, email e uma flag para ativo ou não. Dos veículos serão armazenados id, nome, placa, ano, id do tipo de veículo, a quilometragem em que foi feito a última troca de óleo e uma flag para ativo ou não. O mesmo veículo não poderá ser cadastrado mais de uma vez e cada veículo deverá ter um tipo de veículo vinculado a ele. Do tipo de veículo deverá ser armazenado o id e a categoria. Do manutenção deverá ser armazenado o id, o id do tipo de manutenção, o id de qual veículo foi feita a manutenção, data, nome, valor gasto e a quilometragem atual do veículo em que essa manutenção foi feita. Do tipo de manutenção deverá ser armazenado o id e nome para que possa ser identificado. Dos gastos deverá ser armazenado o id, id do tipo de gasto, nome, valor gasto, data e id do veículo a que se refere o gasto registrado. Do tipo de gasto deverá ser registrado o id e o nome para que esse tipo de gasto possa ser identificado no momento da vinculação com o gasto. Para as viagens deverá ser armazenado o id, data de início, data de fim onde essa não poderá ser menor que a data de início, km inicial, km final e somente depois de todos os campos preenchidos deverá ser possível mostrar o relatório de gastos com o trajeto cadastrado, exibindo o valor gasto com o combustível e km total percorrido. Para o armazenamento do consumo médio é necessário o registro do tipo de combustível que deverá ter o nome, id e uma flag para ativo ou não armazenados, para o consumo médio deverá ter o id do veículo ao qual se refere o consumo médio, quilômetro inicial, quilômetro final, data, quantidade de litros e valor do abastecimento. Para o controle de troca de óleo deverá ser registrado em uma tabela de quantos em quantos quilômetros deve ser a troca de óleo do veículo considerando o tipo de óleo que o usuário comprou para colocar, para isso deve ser registrado o id, o km para troca e um boolean para saber se o registro está ativo ou inativo.
 
 ### 4.PROTOTIPAÇÃO, PERGUNTAS A SEREM RESPONDIDAS E TABELA DE DADOS<br>
 
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/telas_iniciais.png "Telas Iniciais")</br>
+Link para todas as telas: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@7YNFXnKbZA8iQdvdXYPvu<br>
+
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/telas_iniciais.png "Telas Iniciais")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/Tela%20inicial.png "Dashboard e Menu Lateral")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/consumo_medio.png "Consumo médio")
+
 ![Arquivo PDF do Protótipo Whimiscal feito para o App CarCents](https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@7YNFXnKbZA8iQdvdXYPvu "Empresa ABACAXI TECH - CarCents")
 
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
@@ -61,16 +60,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 ### 5.MODELO CONCEITUAL<br>
 
-    A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
-    B) O mínimo de entidades do modelo conceitual pare este trabalho será igual a 3 e o Máximo 5.
-        * informe quais são as 3 principais entidades do sistema em densenvolvimento<br>(se houverem mais de 3 entidades, pense na importância da entidade para o sistema)
-    C) Principais fluxos de informação/entidades do sistema (mínimo 3). <br>Dica: normalmente estes fluxos estão associados as tabelas que conterão maior quantidade de dados
-    D) Qualidade e Clareza
-        Garantir que a semântica dos atributos seja clara no esquema (nomes coerentes com os dados).
-        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null,
-        e tuplas falsas (Aplicar os conceitos de normalização abordados).
-
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/modelo_conceitual.png "Modelo Conceitual")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/modelo_conceitual_resumido.png "Modelo Conceitual")
 
 #### 5.1 Validação do Modelo Conceitual
 
@@ -79,17 +69,38 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 #### 5.2 Descrição dos dados
 
-    [objeto]: [descrição do objeto]
+    USUARIO: Tabela que armazena os usuário donos de veículos que utilizam o sistema
+        ID: campo que armazena o identificador unico de cada usuário
+        NOME: campo que armazena o nome do usuário cadastrado
+        SENHA: campo que armazena a senha do usuário para acessar o sistema
+        EMAIL: campo que armazena o email do usuário usado para acessar o sistema
+        IS_ATIVO: campo que armazena o status do usuário no sistema
+        DATA_CRIAÇÃO: campo que armazena a data de criação da conta do usuário no sistema
 
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    VEICULO: Tabela que armazena os veículos de um usuário no sistema
+        ID: campo que armazena o identificador único de cada veiculo cadastrado no sistema
+        NOME: campo que armazena o nome do veículo para identificação do usuário
+        PLACA: campo que armazena a placa do veículo
+        ANO: campo que armazena o ano do veículo
+        KM_ULTIMA_TROCA: campo que armazena a quilometragem da última troca de óleo
+        IS_ATIVO: campo que armazena o status do veículo no sistema, ativo ou inativo.
+
+    CONSUMO_MEDIO: Tabela que armazena o consumo médio de um veiculo em relação ao tipo de combustivel utilizado para abastecimento
+        ID: campo que armazena o identificador unico do consumo médio
+        KM_INICAL: campo que armazena a quilometragem inicial do veículo no momento do abastecimento
+        KM_FINAL: campo que armazena a quilometragem final do veículo no momento do proximo abastecimento
+        DATA: campo que armazena a data que o abastecimento foi feito
+        QTD_LITROS: campo que armazena a quantidade de litros abastecidos
+        VALOR_ABASTECIMENTO: campo que armazena o valor do gasto com o abastecimento
+
+    TIPO_COMBUSTIVEL: Tabela que armazena os tipos de combustiveis que podem ser relacionados no momento do abastecimento do veiculo
+        ID: campo que armazena o identificador unico do tipo de combustível
+        NOME: campo que armazena o identificador unico do nome do combustivel
+        IS_ATIVO: campo que armazena o status do tipo de combustivel dentro do sistema, ativo ou inativo.
 
 ### 6 MODELO LÓGICO<br>
 
-        a) inclusão do esquema lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual
-        (não serão aceitos modelos que não estejam em conformidade)
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/modelo_logico_resumido.png "Modelo Lógico")
 
 ### 7 MODELO FÍSICO<br>
 
