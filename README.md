@@ -44,16 +44,13 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
     b) Qual foi o gasto total das minhas viagens?
     c) Quando vou precisar fazer manutenção?
     d) Quanto foi gasto em combustível?
-    e) Qando vou precisar fazer uma troca de óleo?
+    e) Quando vou precisar fazer uma troca de óleo?
 
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
+> O APP CarCents precisa inicialmente dos seguintes relatórios:
 
-- Relatório que mostre o nome de cada supervisor(a) e a quantidade de empregados supervisionados.
-- Relatório relativo aos os supervisores e supervisionados. O resultado deve conter o nome do supervisor e nome do supervisionado além da quantidade total de horas que cada supervisionado tem alocada aos projetos existentes na empresa.
-- Relatorio que mostre para cada linha obtida o nome do departamento, o valor individual de cada salario existente no departamento e a média geral de salarios dentre todos os empregados. Os resultados devem ser apresentados ordenados por departamento.
-- Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém). As linhas resultantes devem conter informações sobre: rg, nome, salario do empregado, data de início do salario atual, nomes dos projetos que participa, quantidade de horas e localização nos referidos projetos, numero e nome dos departamentos aos quais está alocado, informações do historico de salário como inicio, fim, e valores de salarios antigos que foram inclusos na referida tabela (caso possuam informações na mesma), além de todas informações relativas aos dependentes.
-  > > ##### Observações: <br> a) perceba que este relatório pode conter linhas com alguns dados repetidos (mas não todos). <br> b) para os empregados que não possuirem alguma destas informações o valor no registro deve aparecer sem informação/nulo.
-- Relatório que obtenha a frequencia absoluta e frequencia relativa da quantidade de cpfs únicos no relatório anterior. Apresente os resultados ordenados de forma decrescente pela frequencia relativa.
+- Relatório que mostre o gasto de cada veiculo, total e por categoria.
+- Relátório que mostre o gasto de combústivel de um veiculo durante o tempo, deve ser possivél ver os gastos filtrados por um tipo de combustivel ou os gastos totais.
+- Relátório de viagens, contendo gastos totais, quantidade de abastecimentos, munutenções feitas no processo.
 
 #### 4.3 TABELA DE DADOS DO SISTEMA:
 
