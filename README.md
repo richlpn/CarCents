@@ -100,9 +100,7 @@ Link para todas as telas: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@
 
 ### 6 MODELO LÓGICO<br>
 
-        a) inclusão do esquema lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual
-        (não serão aceitos modelos que não estejam em conformidade)
+    ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/modelo_logico_resumido.png "Modelo Lógico")
 
 ### 7 MODELO FÍSICO<br>
 
