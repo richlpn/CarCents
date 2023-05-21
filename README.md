@@ -35,12 +35,11 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
-
-Sugestão: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@7YNFXnKbZA8iQdvdXYPvu<br>
+Link para todas as telas: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@7YNFXnKbZA8iQdvdXYPvu<br>
 
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/telas_iniciais.png "Telas Iniciais")
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/Tela%20inicial.png "Dashboard e Menu Lateral")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/consumo_medio.png "Consumo médio")
 
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
