@@ -35,17 +35,16 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
-
-Sugestão: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@7YNFXnKbZA8iQdvdXYPvu<br>
-
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/telas_iniciais.png "Telas Iniciais")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/telas_iniciais.png "Telas Iniciais")</br>
 ![Arquivo PDF do Protótipo Whimiscal feito para o App CarCents](https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@7YNFXnKbZA8iQdvdXYPvu "Empresa ABACAXI TECH - CarCents")
 
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes?
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
+    a) Qual a maior fonte de gasto do meu veiculo?
+    b) Qual foi o gasto total das minhas viagens?
+    c) Quando vou precisar fazer manutenção?
+    d) Quanto foi gasto em combustível?
+    e) Qando vou precisar fazer uma troca de óleo?
 
 > A Empresa DevCom precisa inicialmente dos seguintes relatórios:
 
