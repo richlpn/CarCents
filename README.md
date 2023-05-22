@@ -19,7 +19,7 @@ Richard Lucas: richardl1010@outlook.com<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto>
 <br>e motivação da escolha realizada. <br>
 
-> A empresa Abacaxi Tech sabendo da dificuldade existente entre os donos dos veículos para administrar os gastos e manutenções dos seus veículos iniciou a criação do projeto CarCents, um aplicativo para dispositivos móveis que tem como objetivo esclarecer para os usuários quanto cada veículo está gerando de despesas em um intervalo de tempo, lembretes que auxiliem em manutenções periódicas como troca de óleo e além disso existirá o controle em relação a gastos gerados para percursos como viagens.  Para realizar essa ajuda na administração dos gastos é necessário armazenar dos usuários os seus veículos, gastos, manutenções, o registro de abastecimento para que possa ser possível calcular o consumo médio de cada veículo em relação ao tipo de combustível e informações sobre as viagens que serão/foram feitas. Nas telas de listagem dos gastos e manutenções deverá existir um filtro que permita o usuário colocar um intervalo de data e uma soma dos valores gastos nesse intervalo de datas possam aparecer.
+> A empresa Abacaxi Tech sabendo da dificuldade existente entre os donos dos veículos para administrar os gastos e manutenções dos seus veículos iniciou a criação do projeto CarCents, um aplicativo para dispositivos móveis que tem como objetivo esclarecer para os usuários quanto cada veículo está gerando de despesas em um intervalo de tempo, lembretes que auxiliem em manutenções periódicas como troca de óleo e além disso existirá o controle em relação a gastos gerados para percursos como viagens. Para realizar essa ajuda na administração dos gastos é necessário armazenar dos usuários os seus veículos, gastos, manutenções, o registro de abastecimento para que possa ser possível calcular o consumo médio de cada veículo em relação ao tipo de combustível e informações sobre as viagens que serão/foram feitas. Nas telas de listagem dos gastos e manutenções deverá existir um filtro que permita o usuário colocar um intervalo de data e uma soma dos valores gastos nesse intervalo de datas possam aparecer.
 
 ### 3.MINI-MUNDO<br>
 
@@ -39,17 +39,17 @@ Link para todas as telas: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@
 
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes?
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
+    a) Qual a maior fonte de gasto do meu veiculo?
+    b) Qual foi o gasto total das minhas viagens?
+    c) Quando vou precisar fazer manutenção?
+    d) Quanto foi gasto em combustível?
+    e) Quando vou precisar fazer uma troca de óleo?
 
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
+> O APP CarCents precisa inicialmente dos seguintes relatórios:
 
-- Relatório que mostre o nome de cada supervisor(a) e a quantidade de empregados supervisionados.
-- Relatório relativo aos os supervisores e supervisionados. O resultado deve conter o nome do supervisor e nome do supervisionado além da quantidade total de horas que cada supervisionado tem alocada aos projetos existentes na empresa.
-- Relatorio que mostre para cada linha obtida o nome do departamento, o valor individual de cada salario existente no departamento e a média geral de salarios dentre todos os empregados. Os resultados devem ser apresentados ordenados por departamento.
-- Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém). As linhas resultantes devem conter informações sobre: rg, nome, salario do empregado, data de início do salario atual, nomes dos projetos que participa, quantidade de horas e localização nos referidos projetos, numero e nome dos departamentos aos quais está alocado, informações do historico de salário como inicio, fim, e valores de salarios antigos que foram inclusos na referida tabela (caso possuam informações na mesma), além de todas informações relativas aos dependentes.
-  > > ##### Observações: <br> a) perceba que este relatório pode conter linhas com alguns dados repetidos (mas não todos). <br> b) para os empregados que não possuirem alguma destas informações o valor no registro deve aparecer sem informação/nulo.
-- Relatório que obtenha a frequencia absoluta e frequencia relativa da quantidade de cpfs únicos no relatório anterior. Apresente os resultados ordenados de forma decrescente pela frequencia relativa.
+- Relatório que mostre o gasto de cada veiculo, total e por categoria.
+- Relátório que mostre o gasto de combústivel de um veiculo durante o tempo, deve ser possivél ver os gastos filtrados por um tipo de combustivel ou os gastos totais.
+- Relátório de viagens, contendo gastos totais, quantidade de abastecimentos, munutenções feitas no processo.
 
 #### 4.3 TABELA DE DADOS DO SISTEMA:
 
@@ -69,22 +69,22 @@ Link para todas as telas: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@
 
 #### 5.2 Descrição dos dados
 
-    USUARIO: Tabela que armazena os usuário donos de veículos que utilizam o sistema 
-        ID: campo que armazena o identificador unico de cada usuário 
+    USUARIO: Tabela que armazena os usuário donos de veículos que utilizam o sistema
+        ID: campo que armazena o identificador unico de cada usuário
         NOME: campo que armazena o nome do usuário cadastrado
-        SENHA: campo que armazena a senha do usuário para acessar o sistema  
+        SENHA: campo que armazena a senha do usuário para acessar o sistema
         EMAIL: campo que armazena o email do usuário usado para acessar o sistema
-        IS_ATIVO: campo que armazena o status do usuário no sistema 
-        DATA_CRIAÇÃO: campo que armazena a data de criação da conta do usuário no sistema  
+        IS_ATIVO: campo que armazena o status do usuário no sistema
+        DATA_CRIAÇÃO: campo que armazena a data de criação da conta do usuário no sistema
 
     VEICULO: Tabela que armazena os veículos de um usuário no sistema
         ID: campo que armazena o identificador único de cada veiculo cadastrado no sistema
-        NOME: campo que armazena o nome do veículo para identificação do usuário 
-        PLACA: campo que armazena a placa do veículo 
-        ANO: campo que armazena o ano do veículo 
+        NOME: campo que armazena o nome do veículo para identificação do usuário
+        PLACA: campo que armazena a placa do veículo
+        ANO: campo que armazena o ano do veículo
         KM_ULTIMA_TROCA: campo que armazena a quilometragem da última troca de óleo
-        IS_ATIVO: campo que armazena o status do veículo no sistema, ativo ou inativo. 
-    
+        IS_ATIVO: campo que armazena o status do veículo no sistema, ativo ou inativo.
+
     CONSUMO_MEDIO: Tabela que armazena o consumo médio de um veiculo em relação ao tipo de combustivel utilizado para abastecimento
         ID: campo que armazena o identificador unico do consumo médio
         KM_INICAL: campo que armazena a quilometragem inicial do veículo no momento do abastecimento
@@ -92,20 +92,118 @@ Link para todas as telas: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@
         DATA: campo que armazena a data que o abastecimento foi feito
         QTD_LITROS: campo que armazena a quantidade de litros abastecidos
         VALOR_ABASTECIMENTO: campo que armazena o valor do gasto com o abastecimento
-    
-    TIPO_COMBUSTIVEL: Tabela que armazena os tipos de combustiveis que podem ser relacionados no momento do abastecimento do veiculo 
-        ID: campo que armazena o identificador unico do tipo de combustível 
+
+    TIPO_COMBUSTIVEL: Tabela que armazena os tipos de combustiveis que podem ser relacionados no momento do abastecimento do veiculo
+        ID: campo que armazena o identificador unico do tipo de combustível
         NOME: campo que armazena o identificador unico do nome do combustivel
-        IS_ATIVO: campo que armazena o status do tipo de combustivel dentro do sistema, ativo ou inativo. 
+        IS_ATIVO: campo que armazena o status do tipo de combustivel dentro do sistema, ativo ou inativo.
 
 ### 6 MODELO LÓGICO<br>
 
-   ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/modelo_logico_resumido.png "Modelo Lógico")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/modelo_logico_resumido.png "Modelo Lógico")
 
 ### 7 MODELO FÍSICO<br>
 
-        a) inclusão das instruções de criacão das estruturas em SQL/DDL
-        (criação de tabelas, alterações, etc..)
+        CREATE DATABASE carcentsdb
+        WITH
+        OWNER = postgres
+        ENCODING = 'UTF8'
+        LC_COLLATE = 'Portuguese_Brazil.1252'
+        LC_CTYPE = 'Portuguese_Brazil.1252'
+        TABLESPACE = pg_default
+        CONNECTION LIMIT = -1
+        IS_TEMPLATE = False;
+
+        CREATE TABLE USUARIO (
+            id integer PRIMARY KEY,
+            nome varchar(80),
+            senha varchar(16),
+            email varchar(80),
+            is_ativo boolean,
+            data_criacao date
+        )
+
+        CREATE TABLE VIAGEM (
+            id integer PRIMARY KEY,
+            nome varchar(80),
+            data_inicio date,
+            data_fim date,
+            km_inicial integer,
+            km_final integer,
+            fk_USUARIO_id integer
+        )
+
+        CREATE TABLE TIPO_VEICULO (
+            id integer PRIMARY KEY,
+            categoria varchar(80),
+            is_ativo boolean
+        )
+
+        CREATE TABLE VEICULO (
+            id integer PRIMARY KEY,
+            nome varchar(80),
+            placa varchar(20),
+            ano integer,
+            km_ultima_troca integer,
+            is_ativo boolean,
+            fk_USUARIO_id integer,
+            fk_TIPO_VEICULO_id integer
+        )
+
+        CREATE TABLE TROCA_OLEO (
+            id integer PRIMARY KEY,
+            km integer,
+            data date,
+            is_ativo boolean,
+            fk_VEICULO_id integer
+        )
+
+        CREATE TABLE TIPO_COMBUSTIVEL (
+            id integer PRIMARY KEY,
+            nome varchar(80),
+            is_ativo boolean
+        )
+
+        CREATE TABLE CONSUMO_MEDIO (
+            id integer PRIMARY KEY,
+            km_atual integer,
+            valor_litro integer,
+            data date,
+            qt_litro integer,
+            fk_VEICULO_id integer,
+            fk_TIPO_COMBUSTIVEL_id integer
+        )
+
+        CREATE TABLE TIPO_MANUTENCAO (
+            id integer PRIMARY KEY,
+            nome varchar(80),
+            is_ativo boolean
+        )
+
+        CREATE TABLE MANUTENCAO (
+            id integer PRIMARY KEY,
+            nome varchar(80),
+            valor integer,
+            data date,
+            km integer,
+            fk_VEICULO_id integer,
+            fk_TIPO_MANUTENCAO_id integer
+        )
+
+        CREATE TABLE TIPO_GASTO (
+            id integer PRIMARY KEY,
+            nome varchar(80),
+            is_ativo boolean
+        )
+
+        CREATE TABLE GASTO (
+            id integer PRIMARY KEY,
+            nome varchar(80),
+            data date,
+            valor integer,
+            fk_VEICULO_id integer,
+            fk_TIPO_GASTO_id integer
+        )
 
 ### 8 INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
