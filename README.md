@@ -12,7 +12,6 @@ Lucas Codeco: lucas.codeco2@gmail.com<br>
 Micaely Gusmão: gusmaomicaely@gmail.com<br>
 Richard Lucas: richardl1010@outlook.com<br>
 
-...<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
 
@@ -20,6 +19,8 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 <br>e motivação da escolha realizada. <br>
 
 > A empresa Abacaxi Tech sabendo da dificuldade existente entre os donos dos veículos para administrar os gastos e manutenções dos seus veículos iniciou a criação do projeto CarCents, um aplicativo para dispositivos móveis que tem como objetivo esclarecer para os usuários quanto cada veículo está gerando de despesas em um intervalo de tempo, lembretes que auxiliem em manutenções periódicas como troca de óleo e além disso existirá o controle em relação a gastos gerados para percursos como viagens. Para realizar essa ajuda na administração dos gastos é necessário armazenar dos usuários os seus veículos, gastos, manutenções, o registro de abastecimento para que possa ser possível calcular o consumo médio de cada veículo em relação ao tipo de combustível e informações sobre as viagens que serão/foram feitas. Nas telas de listagem dos gastos e manutenções deverá existir um filtro que permita o usuário colocar um intervalo de data e uma soma dos valores gastos nesse intervalo de datas possam aparecer.
+
+### Links
 
 ### 3.MINI-MUNDO<br>
 
@@ -320,3 +321,6 @@ http://www.sis4.com/brModelo/download.html
 
 Link para curso de GIT<br>
 ![https://www.youtube.com/curso_git](https://www.youtube.com/playlist?list=PLo7sFyCeiGUdIyEmHdfbuD2eR4XPDqnN2?raw=true "Title")
+
+Link para Colab:<br>
+![https://colab.research.google.com/CarCents](https://colab.research.google.com/drive/1dPm90wXv7GtHWrr5LA-NGk72fqkIXXG4 "Colab")
