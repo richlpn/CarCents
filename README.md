@@ -207,11 +207,71 @@ Link para todas as telas: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@
 
 ### 8 INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-        (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
+    INSERT INTO USUARIO (id, nome, senha, email, is_ativo, data_criacao)
+    VALUES 
+    (1, 'Jonny Deep', 'senha', 'jonyn.deep@email.com', true, '2023-04-25'),
+    (2, 'Leonard Nimoy', 'password', 'leonard.nimoy@email.com', true, '2023-04-26'),
+    (3, 'Jane Foster', 'newpassword', 'jane.foster@email.com', false, '2023-04-27');
+
+    INSERT INTO VIAGEM (id,	nome, 	data_inicio, data_fim, km_inicial, km_final, fk_USUARIO_id)
+    VALUES
+    (1, 'Roma', '2023-03-13', '2023-03-18', 10000, 10100, 1),
+    (2, 'Venesa',  '2023-02-05', '2023-02-15', 5000, 5080, 2),
+    (3, 'Paris',  '2023-03-05', '2023-03-28', 15000, 15200, 3);
+
+    INSERT INTO TIPO_VEICULO (id, categoria, is_ativo)
+    VALUES
+    (1, 'Carro', true),
+    (2, 'Moto', true),
+    (3, 'Caminhão', false);
+
+    INSERT INTO VEICULO (id, nome, placa, ano, km_ultima_troca, is_ativo, fk_USUARIO_id, fk_TIPO_VEICULO_id)
+    VALUES
+        (1, 'Carro A', 'ABC-1234', 2015, 10000, true, 1, 1),
+        (2, 'Moto B', 'DEF-5678', 2018, 5000, true, 2, 2),
+        (3, 'Carro C', 'GHI-9012', 2020, 15000, false, 3, 1);
+
+    INSERT INTO TROCA_OLEO (id, km, data, is_ativo, fk_VEICULO_id)
+    VALUES
+        (1, '10000', '2023-03-13', true, 1),
+        (2, '5000', '2023-02-05', true, 2),
+        (3, '15000', '2023-03-05', true, 3);
+
+    INSERT INTO TIPO_COMBUSTIVEL (id, nome, is_ativo)
+    VALUES
+        (1, 'Gasolina', true),
+        (2, 'Etanol', true),
+        (3, 'Diesel', true);
+
+    INSERT INTO CONSUMO_MEDIO (id, km_atual, valor_litro, data, qt_litro,  fk_VEICULO_id, fk_TIPO_COMBUSTIVEL_id )
+    VALUES
+        (1, 1000, 5.578, '2023-03-18', 20,1,2),
+        (2, 5000, 6.005, '2023-02-15',15,2,1),
+        (3, 15000, 4.792, '2023-03-28',10,3,3);
+
+    INSERT INTO TIPO_MANUTENCAO (id, nome, is_ativo)
+    VALUES
+        (1, 'Pneu', true),
+        (2, 'Motor', true),
+        (3, 'Freio', true);
+
+    INSERT INTO MANUTENCAO (id, nome, valor , data , km, fk_VEICULO_id, fk_TIPO_MANUTENCAO_id)
+    VALUES
+        (1, 'Troca de pneus', 5000, '2022-01-05', 50000, 1, 1),
+        (2, 'Reparo no motor', 2500, '2022-03-10', 80000, 3, 2),
+        (3, 'Troca de freios', 1800, '2022-05-15', 75000, 2, 3);
+
+    INSERT INTO TIPO_GASTO (id, nome, is_ativo)
+    VALUES
+    (1, 'Pedágio', true),
+    (2, 'Multa', true),
+    (3, 'IPVA', true);
+
+    INSERT INTO GASTO (id, nome, data, valor, fk_VEICULO_id, fk_TIPO_GASTO_id)
+    VALUES
+        (1, 'terceira ponte', '2023-01-05', 5, 1, 1),
+        (2, 'BR-101', '2023-05-10',150, 2, 2),
+        (3, 'Ipva-2022', '2023-01-08', 4800, 3, 3);
 
 ### 9 TABELAS E PRINCIPAIS CONSULTAS<br>
 
