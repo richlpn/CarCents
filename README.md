@@ -33,7 +33,7 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 Link para todas as telas: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@7YNFXnKbZA8iQdvdXYPvu<br>
 
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/telas_iniciais.png "Telas Iniciais")
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/Tela%20inicial.png "Dashboard e Menu Lateral")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/tela_menu.png "Dashboard e Menu Lateral")
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/consumo_medio.png "Consumo médio")
 
 ![Arquivo PDF do Protótipo Whimiscal feito para o App CarCents](https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@7YNFXnKbZA8iQdvdXYPvu "Empresa ABACAXI TECH - CarCents")
