@@ -380,7 +380,7 @@ http://www.sis4.com/brModelo/download.html
 <br>
 
 Link para curso de GIT<br>
-![https://www.youtube.com/curso_git](https://www.youtube.com/playlist?list=PLo7sFyCeiGUdIyEmHdfbuD2eR4XPDqnN2?raw=true "Title")
+[https://www.youtube.com/curso_git](https://www.youtube.com/playlist?list=PLo7sFyCeiGUdIyEmHdfbuD2eR4XPDqnN2?raw=true "Curso Git")
 
 Link para Colab:<br>
-![https://colab.research.google.com/CarCents](https://colab.research.google.com/drive/1dPm90wXv7GtHWrr5LA-NGk72fqkIXXG4 "Colab")
+[https://colab.research.google.com/CarCents](https://colab.research.google.com/drive/1dPm90wXv7GtHWrr5LA-NGk72fqkIXXG4 "Colab")
