@@ -281,13 +281,13 @@ Link para todas as telas: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@
 #### 9.1 CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
       
     SELECT * FROM usuario;
-    ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/usuario.png "Usuário")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/usuario.png "Usuário")
     
     SELECT * FROM viagem;
-    ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/viagem.png "Viagem")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/viagem.png "Viagem")
 
     SELECT * FROM veiculo;
-    ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/veiculo.png "Veículo")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/veiculo.png "Veículo")
 
     SELECT * FROM tipo_veiculo;    
     ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/tipo_veiculo.png "Tipo Veículo")
