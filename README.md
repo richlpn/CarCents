@@ -290,28 +290,28 @@ Link para todas as telas: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/veiculo.png "Veículo")
 
     SELECT * FROM tipo_veiculo;    
-    ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/tipo_veiculo.png "Tipo Veículo")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/tipo_veiculo.png "Tipo Veículo")
 
     SELECT * FROM troca_oleo;
-    ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/troca_oleo.png "Troca Óleo")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/troca_oleo.png "Troca Óleo")
 
     SELECT * FROM gasto;
-    ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/gasto.png "Gasto")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/gasto.png "Gasto")
 
     SELECT * FROM tipo_gasto;
-    ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/tipo_gasto.png "Tipo Gasto")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/tipo_gasto.png "Tipo Gasto")
 
     SELECT * FROM manutencao;
-    ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/manutencao.png "Manutenção")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/manutencao.png "Manutenção")
 
     SELECT * FROM tipo_manutencao;
-    ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/tipo_manutencao.png "Tipo Manutenção")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/tipo_manutencao.png "Tipo Manutenção")
 
     SELECT * FROM consumo_medio;
-    ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/consumo_medio.png "Consumo Médio")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/consumo_medio.png "Consumo Médio")
 
     SELECT * FROM tipo_combustivel;
-    ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/tipo_combustivel.png "Tipo Combustível")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/tipo_combustivel.png "Tipo Combustível")
 
 > # Marco de Entrega 01: Do item 1 até o item 9.1<br>
 
