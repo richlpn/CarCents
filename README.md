@@ -53,7 +53,7 @@ Link para todas as telas: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@
 
 #### 4.3 TABELA DE DADOS DO SISTEMA:
 
-![Tabela de tudo relácionado ao cliente](https://docs.google.com/spreadsheets/d/1sU4ysGyTBmbPAMhycbn1cy_RSAn8-xCmRkbVHetMuF0/edit?usp=sharing "Tabela - CarCents")
+[Tabela de tudo relacionado ao sistema](https://docs.google.com/spreadsheets/d/1sU4ysGyTBmbPAMhycbn1cy_RSAn8-xCmRkbVHetMuF0/edit?usp=sharing "Tabela - CarCents")
 
 ### 5.MODELO CONCEITUAL<br>
 
