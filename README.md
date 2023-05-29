@@ -312,7 +312,7 @@ Link para todas as telas: [https://whimsical.com/CarCents](https://whimsical.com
 
     SELECT * FROM consumo_medio;
 
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/consumo_medio.png "Consumo Médio")
+![Alt text](images/selects/consumo_medio.png "Consumo Médio")
 
     SELECT * FROM tipo_combustivel;
 
