@@ -28,7 +28,8 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-Link para todas as telas: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@7YNFXnKbZA8iQdvdXYPvu<br>
+Link para todas as telas: <br>
+[https://whimsical.com/CarCents](https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@7YNFXnKbZA8iQdvdXYPvu "Whimsical")
 
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/telas_iniciais.png "Telas Iniciais")
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/tela_menu.png "Dashboard e Menu Lateral")
