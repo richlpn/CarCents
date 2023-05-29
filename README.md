@@ -276,7 +276,7 @@ Link para todas as telas: [https://whimsical.com/CarCents](https://whimsical.com
 
     SELECT * FROM usuario;
 
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/usuario.png "Usuário")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/usuario.png "Usuário") 
 
     SELECT * FROM viagem;
 
