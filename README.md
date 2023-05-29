@@ -51,7 +51,7 @@ Link para todas as telas: [https://whimsical.com/CarCents](https://whimsical.com
 
 #### 4.3 TABELA DE DADOS DO SISTEMA:
 
-[Tabela de tudo relacionado ao sistema](https://docs.google.com/spreadsheets/d/17Y6TXvnoUigxrikrk0pQMEALKVhoBMSGQRXG5ZYvAIU/edit?usp=sharing "Tabela - CarCents")
+![Tabela de tudo relácionado ao sistema](https://docs.google.com/spreadsheets/d/1sU4ysGyTBmbPAMhycbn1cy_RSAn8-xCmRkbVHetMuF0/edit?usp=sharing "Tabela - CarCents")
 
 ### 5.MODELO CONCEITUAL<br>
 Modelo conceitual resumido com as quatro principais tabelas do banco.
