@@ -51,13 +51,13 @@ Link para todas as telas: [https://whimsical.com/CarCents](https://whimsical.com
 
 #### 4.3 TABELA DE DADOS DO SISTEMA:
 
-![Tabela de tudo relácionado ao sistema](https://docs.google.com/spreadsheets/d/1sU4ysGyTBmbPAMhycbn1cy_RSAn8-xCmRkbVHetMuF0/edit?usp=sharing "Tabela - CarCents")
+[Tabela de tudo relacionado ao sistema](https://docs.google.com/spreadsheets/d/1sU4ysGyTBmbPAMhycbn1cy_RSAn8-xCmRkbVHetMuF0/edit?usp=sharing "Tabela - CarCents")
 
 ### 5.MODELO CONCEITUAL<br>
+
 Modelo conceitual resumido com as quatro principais tabelas do banco.
 
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/modelo_conceitual_resumido.png "Modelo Conceitual")
-
 
 #### 5.1 Validação do Modelo Conceitual
 
@@ -96,10 +96,9 @@ Modelo conceitual resumido com as quatro principais tabelas do banco.
         IS_ATIVO: campo que armazena o status do tipo de combustivel dentro do sistema, ativo ou inativo.
 
 ### 6 MODELO LÓGICO<br>
-    
+
 Modelo lógico resumido com as quatro principais tabelas do banco.
 
-    
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/modelo_logico_resumido.png "Modelo Lógico")
 
 ### 7 MODELO FÍSICO<br>
@@ -209,7 +208,7 @@ Modelo lógico resumido com as quatro principais tabelas do banco.
 ### 8 INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
     INSERT INTO USUARIO (id, nome, senha, email, is_ativo, data_criacao)
-    VALUES 
+    VALUES
         (1, 'Jonny Deep', 'senha', 'jonyn.deep@email.com', true, '2023-04-25'),
         (2, 'Leonard Nimoy', 'password', 'leonard.nimoy@email.com', true, '2023-04-26'),
         (3, 'Jane Foster', 'newpassword', 'jane.foster@email.com', false, '2023-04-27'),
@@ -335,7 +334,7 @@ Modelo lógico resumido com as quatro principais tabelas do banco.
 
     SELECT * FROM usuario;
 
-![Alt text](images/selects/usuario.png "Usuário") 
+![Alt text](images/selects/usuario.png "Usuário")
 
     SELECT * FROM viagem;
 
@@ -473,6 +472,7 @@ https://help.github.com/articles/basic-writing-and-formatting-syntax/
 #### Os usuários criados no GIT devem possuir o nome de identificação do aluno (não serão aceitos nomes como Eu123, meuprojeto, pro456, etc). Em caso de dúvida comunicar o professor.
 
 ### Links
+
 Link para BrModelo:<br>
 http://www.sis4.com/brModelo/download.html
 <br>
