@@ -276,39 +276,39 @@ Link para todas as telas: [https://whimsical.com/CarCents](https://whimsical.com
 
     SELECT * FROM usuario;
 
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/usuario.png "Usuário") 
+![Alt text](images/selects/usuario.png "Usuário") 
 
     SELECT * FROM viagem;
 
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/viagem.png "Viagem")
+![Alt text](images/selects/viagem.png "Viagem")
 
     SELECT * FROM veiculo;
 
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/veiculo.png "Veículo")
+![Alt text](images/selects/veiculo.png "Veículo")
 
     SELECT * FROM tipo_veiculo;
 
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/tipo_veiculo.png "Tipo Veículo")
+![Alt text](images/selects/tipo_veiculo.png "Tipo Veículo")
 
     SELECT * FROM troca_oleo;
 
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/troca_oleo.png "Troca Óleo")
+![Alt text](images/selects/troca_oleo.png "Troca Óleo")
 
     SELECT * FROM gasto;
 
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/gasto.png "Gasto")
+![Alt text](images/selects/gasto.png "Gasto")
 
     SELECT * FROM tipo_gasto;
 
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/tipo_gasto.png "Tipo Gasto")
+![Alt text](images/selects/tipo_gasto.png "Tipo Gasto")
 
     SELECT * FROM manutencao;
 
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/manutencao.png "Manutenção")
+![Alt text](images/selects/manutencao.png "Manutenção")
 
     SELECT * FROM tipo_manutencao;
 
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/tipo_manutencao.png "Tipo Manutenção")
+![Alt text](images/selects/tipo_manutencao.png "Tipo Manutenção")
 
     SELECT * FROM consumo_medio;
 
@@ -316,7 +316,7 @@ Link para todas as telas: [https://whimsical.com/CarCents](https://whimsical.com
 
     SELECT * FROM tipo_combustivel;
 
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/tipo_combustivel.png "Tipo Combustível")
+![Alt text](images/selects/tipo_combustivel.png "Tipo Combustível")
 
 > # Marco de Entrega 01: Do item 1 até o item 9.1<br>
 
