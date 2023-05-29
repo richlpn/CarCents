@@ -12,7 +12,6 @@ Lucas Codeco: lucas.codeco2@gmail.com<br>
 Micaely Gusmão: gusmaomicaely@gmail.com<br>
 Richard Lucas: richardl1010@outlook.com<br>
 
-
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
 
 Este documento contém a especificação do projeto do banco de dados <nome do projeto>
@@ -54,10 +53,7 @@ Link para todas as telas: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@
 
 #### 4.3 TABELA DE DADOS DO SISTEMA:
 
-    a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas/registros de dados.
-    b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados
-
-![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true "Tabela - Empresa Devcom")
+![Tabela de tudo relácionado ao cliente](https://docs.google.com/spreadsheets/d/17Y6TXvnoUigxrikrk0pQMEALKVhoBMSGQRXG5ZYvAIU/edit?usp=sharing "Tabela - CarCents")
 
 ### 5.MODELO CONCEITUAL<br>
 
@@ -209,7 +205,7 @@ Link para todas as telas: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@
 ### 8 INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
     INSERT INTO USUARIO (id, nome, senha, email, is_ativo, data_criacao)
-    VALUES 
+    VALUES
     (1, 'Jonny Deep', 'senha', 'jonyn.deep@email.com', true, '2023-04-25'),
     (2, 'Leonard Nimoy', 'password', 'leonard.nimoy@email.com', true, '2023-04-26'),
     (3, 'Jane Foster', 'newpassword', 'jane.foster@email.com', false, '2023-04-27');
@@ -279,38 +275,49 @@ Link para todas as telas: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 
 #### 9.1 CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-      
+
     SELECT * FROM usuario;
+
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/usuario.png "Usuário")
-    
+
     SELECT * FROM viagem;
+
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/viagem.png "Viagem")
 
     SELECT * FROM veiculo;
+
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/veiculo.png "Veículo")
 
-    SELECT * FROM tipo_veiculo;    
+    SELECT * FROM tipo_veiculo;
+
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/tipo_veiculo.png "Tipo Veículo")
 
     SELECT * FROM troca_oleo;
+
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/troca_oleo.png "Troca Óleo")
 
     SELECT * FROM gasto;
+
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/gasto.png "Gasto")
 
     SELECT * FROM tipo_gasto;
+
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/tipo_gasto.png "Tipo Gasto")
 
     SELECT * FROM manutencao;
+
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/manutencao.png "Manutenção")
 
     SELECT * FROM tipo_manutencao;
+
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/tipo_manutencao.png "Tipo Manutenção")
 
     SELECT * FROM consumo_medio;
+
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/consumo_medio.png "Consumo Médio")
 
     SELECT * FROM tipo_combustivel;
+
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/selects/tipo_combustivel.png "Tipo Combustível")
 
 > # Marco de Entrega 01: Do item 1 até o item 9.1<br>
