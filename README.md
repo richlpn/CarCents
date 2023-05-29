@@ -54,7 +54,7 @@ Link para todas as telas: [https://whimsical.com/CarCents](https://whimsical.com
 [Tabela de tudo relacionado ao sistema](https://docs.google.com/spreadsheets/d/17Y6TXvnoUigxrikrk0pQMEALKVhoBMSGQRXG5ZYvAIU/edit?usp=sharing "Tabela - CarCents")
 
 ### 5.MODELO CONCEITUAL<br>
-Modelo conceitual resumido com as 3 principais tabelas do banco.
+Modelo conceitual resumido com as quatro principais tabelas do banco.
 
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/modelo_conceitual_resumido.png "Modelo Conceitual")
 
@@ -97,7 +97,7 @@ Modelo conceitual resumido com as 3 principais tabelas do banco.
 
 ### 6 MODELO LÓGICO<br>
     
-Modelo lógico resumido com as 3 principais tabelas do banco.
+Modelo lógico resumido com as quatro principais tabelas do banco.
 
     
 ![Alt text](https://github.com/richlpn/CarCents/blob/main/images/modelo_logico_resumido.png "Modelo Lógico")
