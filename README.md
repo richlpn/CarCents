@@ -62,7 +62,7 @@ Modelo conceitual resumido com as quatro principais tabelas do banco.
 #### 5.1 Validação do Modelo Conceitual
 
     [Grupo01]: [Eduardo, Lucas Vieira, Matheus Colares, Victor]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Grupo02]: [Isabella Sampaio, Isabella Bissoli, Marcela, Renzo]
 
 #### 5.2 Descrição dos dados
 
