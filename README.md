@@ -57,7 +57,7 @@ Link para todas as telas: [https://whimsical.com/CarCents](https://whimsical.com
 
 Modelo conceitual resumido com as quatro principais tabelas do banco.
 
-![Alt text](https://github.com/richlpn/CarCents/blob/main/images/modelo_conceitual_resumido.png "Modelo Conceitual")
+![Alt text](https://github.com/richlpn/CarCents/blob/main/images/modelo_conceitual_atual.png "Modelo Conceitual")
 
 #### 5.1 Validação do Modelo Conceitual
 
