@@ -326,6 +326,10 @@ Modelo lógico resumido com as quatro principais tabelas do banco.
         (9, 'Seguro do Veículo', '2023-08-20', 500, 9, 5, 1000.0),
         (10, 'Excesso de Velocidade', '2023-09-25', 300, 10, 2, 180000.0);
 
+Link para backup do Banco de dados<br>
+[Backup_CarCents](arquivos/Backup_CarCents.sql "Backup_CarCents")
+    
+    
 ### 9 TABELAS E PRINCIPAIS CONSULTAS<br>
 
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
@@ -476,9 +480,6 @@ https://help.github.com/articles/basic-writing-and-formatting-syntax/
 Link para BrModelo:<br>
 http://www.sis4.com/brModelo/download.html
 <br>
-
-Link para backup do Banco de dados<br>
-[Backup_CarCents](arquivos/Backup_CarCents.sql "Backup_CarCents")
     
 Link para curso de GIT<br>
 [https://www.youtube.com/curso_git](https://www.youtube.com/playlist?list=PLo7sFyCeiGUdIyEmHdfbuD2eR4XPDqnN2?raw=true "Curso Git")
