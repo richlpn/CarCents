@@ -113,97 +113,117 @@ Modelo lógico resumido com as quatro principais tabelas do banco.
         CONNECTION LIMIT = -1
         IS_TEMPLATE = False;
 
-        CREATE TABLE USUARIO (
-            id integer PRIMARY KEY,
-            nome varchar(80),
-            senha varchar(16),
-            email varchar(80),
-            is_ativo boolean,
-            data_criacao date
-        );
+    CREATE TABLE USUARIO (
+        id integer PRIMARY KEY,
+        nome varchar(80),
+        senha varchar(16),
+        email varchar(80),
+        is_ativo boolean,
+        data_criacao date
+    );
 
-        CREATE TABLE VIAGEM (
-            id integer PRIMARY KEY,
-            nome varchar(80),
-            data_inicio date,
-            data_fim date,
-            km_inicial float,
-            km_final float,
-            fk_USUARIO_id integer
-        );
+    CREATE TABLE VIAGEM (
+        id integer PRIMARY KEY,
+        nome varchar(80),
+        data_inicio date,
+        data_fim date,
+        km_inicial float,
+        km_final float,
+        fk_USUARIO_id integer,
+        FOREIGN KEY(fk_USUARIO_id) 
+	  	REFERENCES usuario(id)
+    );
 
-        CREATE TABLE TIPO_VEICULO (
-            id integer PRIMARY KEY,
-            categoria varchar(80),
-            is_ativo boolean
-        );
+    CREATE TABLE TIPO_VEICULO (
+        id integer PRIMARY KEY,
+        categoria varchar(80),
+        is_ativo boolean
+    );
 
-        CREATE TABLE VEICULO (
-            id integer PRIMARY KEY,
-            nome varchar(80),
-            placa varchar(20),
-            ano integer,
-            km_ultima_troca float,
-            is_ativo boolean,
-            fk_USUARIO_id integer,
-            fk_TIPO_VEICULO_id integer
-        );
+    CREATE TABLE VEICULO (
+        id integer PRIMARY KEY,
+        nome varchar(80),
+        placa varchar(20),
+        ano integer,
+        km_ultima_troca float,
+        is_ativo boolean,
+        fk_USUARIO_id integer,
+        FOREIGN KEY(fk_USUARIO_id) 
+	  	REFERENCES usuario(id),
+        fk_TIPO_VEICULO_id integer,
+	  	FOREIGN KEY(fk_TIPO_VEICULO_id) 
+	  	REFERENCES tipo_veiculo(id)
+    );
 
-        CREATE TABLE TROCA_OLEO (
-            id integer PRIMARY KEY,
-            km float,
-            data date,
-            is_ativo boolean,
-            fk_VEICULO_id integer
-        );
+    CREATE TABLE TROCA_OLEO (
+        id integer PRIMARY KEY,
+        km float,
+        data date,
+        is_ativo boolean,
+        fk_VEICULO_id integer,
+        FOREIGN KEY(fk_VEICULO_id) 
+	  	REFERENCES veiculo(id)
+    );
 
-        CREATE TABLE TIPO_COMBUSTIVEL (
-            id integer PRIMARY KEY,
-            nome varchar(80),
-            is_ativo boolean
-        );
+    CREATE TABLE TIPO_COMBUSTIVEL (
+        id integer PRIMARY KEY,
+        nome varchar(80),
+        is_ativo boolean
+    );
 
-        CREATE TABLE CONSUMO_MEDIO (
-            id integer PRIMARY KEY,
-            km_atual float,
-            valor_litro float,
-            data date,
-            qt_litro float,
-            fk_VEICULO_id integer,
-            fk_TIPO_COMBUSTIVEL_id integer
-        );
+    CREATE TABLE CONSUMO_MEDIO (
+        id integer PRIMARY KEY,
+        km_atual float,
+        valor_litro float,
+        data date,
+        qt_litro float,
+        fk_VEICULO_id integer,
+        FOREIGN KEY(fk_VEICULO_id) 
+	  	REFERENCES veiculo(id),
+        fk_TIPO_COMBUSTIVEL_id integer,
+        FOREIGN KEY(fk_TIPO_COMBUSTIVEL_id) 
+	  	REFERENCES tipo_combustivel(id)        
+    );
 
-        CREATE TABLE TIPO_MANUTENCAO (
-            id integer PRIMARY KEY,
-            nome varchar(80),
-            is_ativo boolean
-        );
+    CREATE TABLE TIPO_MANUTENCAO (
+        id integer PRIMARY KEY,
+        nome varchar(80),
+        is_ativo boolean
+    );
 
-        CREATE TABLE MANUTENCAO (
-            id integer PRIMARY KEY,
-            nome varchar(80),
-            valor float,
-            data date,
-            km float,
-            fk_VEICULO_id integer,
-            fk_TIPO_MANUTENCAO_id integer
-        );
+    CREATE TABLE MANUTENCAO (
+        id integer PRIMARY KEY,
+        nome varchar(80),
+        valor float,
+        data date,
+        km float,
+        fk_VEICULO_id integer,
+        FOREIGN KEY(fk_VEICULO_id) 
+	  	REFERENCES veiculo(id),
+        fk_TIPO_MANUTENCAO_id integer,
+        FOREIGN KEY(fk_TIPO_MANUTENCAO_id) 
+	  	REFERENCES tipo_manutencao(id)
+    );
 
-        CREATE TABLE TIPO_GASTO (
-            id integer PRIMARY KEY,
-            nome varchar(80),
-            is_ativo boolean
-        );
+    CREATE TABLE TIPO_GASTO (
+        id integer PRIMARY KEY,
+        nome varchar(80),
+        is_ativo boolean
+    );
 
-        CREATE TABLE GASTO (
-            id integer PRIMARY KEY,
-            nome varchar(80),
-            data date,
-            valor integer,
-            fk_VEICULO_id integer,
-            fk_TIPO_GASTO_id integer,
-            km integer
-        );
+    CREATE TABLE GASTO (
+        id integer PRIMARY KEY,
+        nome varchar(80),
+        data date,
+        valor integer,
+        fk_VEICULO_id integer,
+        FOREIGN KEY(fk_VEICULO_id) 
+	  	REFERENCES veiculo(id),
+        fk_TIPO_GASTO_id integer,
+        FOREIGN KEY(fk_TIPO_GASTO_id) 
+	  	REFERENCES tipo_gasto(id),
+        km integer
+    );
 
 ### 8 INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
