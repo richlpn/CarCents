@@ -29,6 +29,7 @@ DROP TABLE USUARIO cascade;
         fk_USUARIO_id integer,
         FOREIGN KEY(fk_USUARIO_id) 
 	  	REFERENCES usuario(id)
+        ON DELETE CASCADE
     );
 
     CREATE TABLE TIPO_VEICULO (
@@ -46,10 +47,12 @@ DROP TABLE USUARIO cascade;
         is_ativo boolean,
         fk_USUARIO_id integer,
         FOREIGN KEY(fk_USUARIO_id) 
-	  	REFERENCES usuario(id),
+	  	REFERENCES usuario(id) 
+	  	ON DELETE CASCADE,
         fk_TIPO_VEICULO_id integer,
 	  	FOREIGN KEY(fk_TIPO_VEICULO_id) 
 	  	REFERENCES tipo_veiculo(id)
+        ON DELETE CASCADE
     );
 
     CREATE TABLE TROCA_OLEO (
@@ -60,6 +63,7 @@ DROP TABLE USUARIO cascade;
         fk_VEICULO_id integer,
         FOREIGN KEY(fk_VEICULO_id) 
 	  	REFERENCES veiculo(id)
+        ON DELETE CASCADE
     );
 
     CREATE TABLE TIPO_COMBUSTIVEL (
@@ -76,10 +80,12 @@ DROP TABLE USUARIO cascade;
         qt_litro float,
         fk_VEICULO_id integer,
         FOREIGN KEY(fk_VEICULO_id) 
-	  	REFERENCES veiculo(id),
+	  	REFERENCES veiculo(id)
+	  	ON DELETE CASCADE,
         fk_TIPO_COMBUSTIVEL_id integer,
         FOREIGN KEY(fk_TIPO_COMBUSTIVEL_id) 
-	  	REFERENCES tipo_combustivel(id)        
+	  	REFERENCES tipo_combustivel(id)
+        ON DELETE CASCADE        
     );
 
     CREATE TABLE TIPO_MANUTENCAO (
@@ -96,10 +102,12 @@ DROP TABLE USUARIO cascade;
         km float,
         fk_VEICULO_id integer,
         FOREIGN KEY(fk_VEICULO_id) 
-	  	REFERENCES veiculo(id),
+	  	REFERENCES veiculo(id)
+	  	ON DELETE CASCADE,
         fk_TIPO_MANUTENCAO_id integer,
         FOREIGN KEY(fk_TIPO_MANUTENCAO_id) 
 	  	REFERENCES tipo_manutencao(id)
+        ON DELETE CASCADE
     );
 
     CREATE TABLE TIPO_GASTO (
@@ -115,10 +123,11 @@ DROP TABLE USUARIO cascade;
         valor integer,
         fk_VEICULO_id integer,
         FOREIGN KEY(fk_VEICULO_id) 
-	  	REFERENCES veiculo(id),
+	  	REFERENCES veiculo(id)
+	  	ON DELETE CASCADE,
         fk_TIPO_GASTO_id integer,
         FOREIGN KEY(fk_TIPO_GASTO_id) 
-	  	REFERENCES tipo_gasto(id),
+	  	REFERENCES tipo_gasto(id) ON DELETE CASCADE,
         km integer
     );
 
