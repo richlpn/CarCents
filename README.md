@@ -401,6 +401,7 @@ Link para backup do Banco de dados<br>
 ![Alt text](images/selects/tipo_combustivel.png "Tipo Combustível")
 
 > # Marco de Entrega 01: Do item 1 até o item 9.1<br>
+	Sprint II completo no Colab (link no final do README) 
 
 #### 9.2 CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
