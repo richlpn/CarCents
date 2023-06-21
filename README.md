@@ -47,7 +47,7 @@ Link para todas as telas: [https://whimsical.com/CarCents](https://whimsical.com
 
 - Relatório que mostre o gasto de cada veiculo, total e por categoria.
 - Relátório que mostre o gasto de combústivel de um veiculo durante o tempo, deve ser possivél ver os gastos filtrados por um tipo de combustivel ou os gastos totais.
-- Relátório de viagens, contendo gastos totais, quantidade de abastecimentos, munutenções feitas no processo.
+- Relátório de viagens, contendo gastos totais, quantidade de abastecimentos, manutenções feitas no processo.
 
 #### 4.3 TABELA DE DADOS DO SISTEMA:
 
