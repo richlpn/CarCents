@@ -2,6 +2,19 @@
 
 Trabalho desenvolvido durante a disciplina de BD1
 
+
+# Links
+
+Link para BrModelo:<br>
+http://www.sis4.com/brModelo/download.html
+<br>
+    
+Link para curso de GIT<br>
+[https://www.youtube.com/curso_git](https://www.youtube.com/playlist?list=PLo7sFyCeiGUdIyEmHdfbuD2eR4XPDqnN2?raw=true "Curso Git")
+
+Link para Colab:<br>
+[https://colab.research.google.com/CarCents](https://colab.research.google.com/drive/1dPm90wXv7GtHWrr5LA-NGk72fqkIXXG4 "Colab")
+
 # Sumário
 
 ### 1. COMPONENTES<br>
@@ -496,14 +509,3 @@ https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
 #### Os usuários criados no GIT devem possuir o nome de identificação do aluno (não serão aceitos nomes como Eu123, meuprojeto, pro456, etc). Em caso de dúvida comunicar o professor.
 
-### Links
-
-Link para BrModelo:<br>
-http://www.sis4.com/brModelo/download.html
-<br>
-    
-Link para curso de GIT<br>
-[https://www.youtube.com/curso_git](https://www.youtube.com/playlist?list=PLo7sFyCeiGUdIyEmHdfbuD2eR4XPDqnN2?raw=true "Curso Git")
-
-Link para Colab:<br>
-[https://colab.research.google.com/CarCents](https://colab.research.google.com/drive/1dPm90wXv7GtHWrr5LA-NGk72fqkIXXG4 "Colab")
