@@ -359,6 +359,8 @@ Link para todas as telas: https://whimsical.com/carcents-JghTqFLsGwd8PvrBB9aM8F@
 > # Marco de Entrega 02: Do item 9.2 até o ítem 9.10<br>
 
 ### 10 RELATÓRIOS E GRÁFICOS
+Link para Colab:<br>
+[https://colab.research.google.com/CarCents/Relatórios](https://colab.research.google.com/drive/1tmA2V9oS2-w9wvb3xauRU_MWefSbkJc4 "Colab - Relatórios")
 
 #### a) análises e resultados provenientes do banco de dados desenvolvido (usar modelo disponível)
 
